@@ -17,7 +17,7 @@ int main()
 	vector<double> numbers=getNums(2000000, 1, 500);
 	Timer time;
 		
-	time.start();
+	time.start();					// The time calls as well as the others were also from Lab_06
 	sort(begin(numbers), end(numbers));
 	time.stop();
 
